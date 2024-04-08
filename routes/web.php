@@ -29,3 +29,7 @@ Route::get('/grades', function () {
 Route::get('/courses', function () {
     return view('courses');
 });
+
+Route::get('/home', function () {
+    return view('home');
+});

@@ -7,26 +7,45 @@
         <h1>Grades</h1>
         <img class="settingspic" src="{{ url('icons/settings_icon.svg') }}" alt="">
     </div>
+
     <div class="grades">
-        cghhcjcdhcdjhcdhcjkdjhkcjdcjhkd
+        Introduction to Computing
+        <div class="gradepoint">
+            90%
+        </div>
     </div>
     <div class="grades">
-        cghhcjcdhcdjhcdhcjkdjhkcjdcjhkd
+        <div class="gradepoint">
+            90%
+        </div>
+        Digital Innovation
     </div>
     <div class="grades">
-        cghhcjcdhcdjhcdhcjkdjhkcjdcjhkd
+        <div class="gradepoint">
+            90%
+        </div>
+        Data Structures
     </div>
     <div class="grades">
-        cghhcjcdhcdjhcdhcjkdjhkcjdcjhkd
+        <div class="gradepoint">
+            90%
+        </div>
+        Programming 101
     </div>
     <div class="grades">
-        cghhcjcdhcdjhcdhcjkdjhkcjdcjhkd
+        <div class="gradepoint">
+            90%
+        </div>
+        Research Methods
     </div>
     <div class="grades">
-        cghhcjcdhcdjhcdhcjkdjhkcjdcjhkd
+        <div class="gradepoint">
+            90%
+        </div>
+   Computing Symatics
     </div>
-   
-   
+
+
 
 
 

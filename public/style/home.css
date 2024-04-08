@@ -27,7 +27,6 @@
 .course-item {
     width: 30%;
     min-height: 250px;
-    margin-top: 40px;
     border: solid 1px #000000;
     list-style-type: none;
     box-sizing: border-box;
@@ -41,7 +40,7 @@
 }
 
 .details {
-    padding: 5px;
+    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -79,3 +78,14 @@
     content: '';
     background: #033B3B80;
 }
+
+
+.announcements{
+    margin-top: 40px;
+    border: solid 1px #000000;
+    border-radius: 100px;
+    padding: 20px;
+    list-style-type: none;
+    margin-bottom: 20PX;
+}
+
