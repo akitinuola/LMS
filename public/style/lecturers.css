@@ -1,0 +1,39 @@
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+}
+.lecturertable {
+    margin: 50px;
+}
+
+
+.thead {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+}
+th {
+    text-align: left;
+    padding: 10px;
+}
+td {
+    padding: 10px;
+}
+td img {
+    width: 40px;
+}
+
+.settingspic{
+
+    width: 20px;
+    padding-left: 50%;
+    text-align: left;
+    
+}

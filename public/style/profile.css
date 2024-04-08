@@ -1,0 +1,54 @@
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.profile-page {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.profilemain{
+    width: 50%;
+    height: 10%;
+    margin-top: 40px;
+    border: solid 1px #000000;
+    border-radius: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 20px;
+}
+
+.profilepic {
+    width: 60px;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    align-self: center;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Align horizontally to the center */
+    align-items: center; /* Align vertically to the center */
+}
+
+.profilebutton {
+    width: 30%;
+    height: 10%;
+    margin-top: 40px;
+    border: solid 1px #000000;
+    border-radius: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 20px;
+}
+
+.settingspic{
+
+    width: 20px;
+    padding-left: 50%;
+    text-align: left;
+    
+}
