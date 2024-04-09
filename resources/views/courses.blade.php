@@ -13,43 +13,43 @@
         <div class="course-item">
             <div class="rectangle"></div>
             <div class="details">
-                <p>Farouk Bakre</p>
-                <p>Biology 101</p>
+                <p>Data Structures</p>
+                <p>Data102</p>
             </div>
         </div>
         <div class="course-item">
             <div class="rectangle1"></div>
             <div class="details">
-                <p>Farouk Bakre</p>
-                <p>Biology 101</p>
+                <p>Digital Innovation</p>
+                <p>DI103</p>
             </div>
         </div>
         <div class="course-item">
             <div class="rectangle2"></div>
             <div class="details">
-                <p>Farouk Bakre</p>
-                <p>Biology 101</p>
+                <p>Programming 101</p>
+                <p>Pro231</p>
             </div>
         </div>
         <div class="course-item">
             <div class="rectangle3"></div>
             <div class="details">
-                <p>Farouk Bakre</p>
-                <p>Biology 101</p>
+                <p>Introduction to Computing</p>
+                <p>Comp131</p>
             </div>
         </div>
         <div class="course-item">
             <div class="rectangle4"></div>
             <div class="details">
-                <p>Farouk Bakre</p>
-                <p>Biology 101</p>
+                <p>Research Methods</p>
+                <p>Re145</p>
             </div>
         </div>
         <div class="course-item">
             <div class="rectangle5"></div>
             <div class="details">
-                <p>Farouk Bakre</p>
-                <p>Biology 101</p>
+                <p>Dissertation</p>
+                <p>Dis178</p>
             </div>
         </div>
     </div>
