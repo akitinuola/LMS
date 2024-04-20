@@ -1,4 +1,3 @@
-
 <link href="{{ url('style/dashboard.css') }}" rel="stylesheet">
 <link href="{{ url('style/signup.css') }}" rel="stylesheet">
 
@@ -11,22 +10,24 @@
     </div>
     <img class="signup-pic" src="{{ url('icons/profilemain.svg') }}" alt="">
 
-   
-        <input class="signup-main" type="text" placeholder="First Name">
-        <input class="signup-main" type="text" placeholder="Surname">
-        <input class="signup-main" type="text" placeholder="Password">
-        <input class="signup-main" type="text" placeholder="Confirm Password">
-        
-        <button class="signup-main" type="button">Sign Up</button>
-        
+
+    <form action="{{ url('signup') }}" method="post">
+        @csrf
+        @if (count($errors))
+            @foreach ($errors->all() as $error)
+                <div style="color: black;"> {{ $error }}</div>
+            @endforeach
+        @endif
+        <input class="text" type="text" name="firstname" placeholder="Firstname" value="{{ old('firstname') }}"
+            required>
+        <input class="text email" type="text" name="lastname" placeholder="Lastname" value="{{ old('lastname') }}"
+            required>
+        <input class="text email" type="email" name="email" placeholder="Email" value="{{ old('email') }}"
+            required>
+        <input class="text email" type="password" name="password" placeholder="Password" value="{{ old('password') }}"
+            required>
+        <input class="text email" type="password" name="password_confirmation" placeholder="Confirm Password" required>
+
+        <button class="signup-main">Sign Up</button>
+    </form>
 </div>
-
-
-
-
-
-
-
-
-
-

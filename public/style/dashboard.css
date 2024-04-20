@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 nav {
     width: 200px;
     height: 100vh;
@@ -44,7 +48,8 @@ margin-right: 15px;
     border: solid 1px #000000;
 }
 
-a {
+.navigation-list a {
     color: white;
     text-decoration: none;
 }
+

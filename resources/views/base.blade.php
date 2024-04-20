@@ -31,7 +31,7 @@
             <li><img class="icon" src= "{{url('icons/grades.svg') }}" alt="grades"><a href="grades">Grades</a></li>
             <li><img class="icon" src=" {{url('icons/profile.svg') }}" alt="profile"><a href="profile">Profie</a></li>
             <li><img class="icon" src="{{url('icons/lecturers.svg') }}" alt="lecturers"><a href="lecturers">Lecturers</a></li>
-             <li><img class="icon" src="{{url('icons/sign_out.svg') }}" alt="signout"> <a href="signout">Sign out</a></li>
+             <li><img class="icon" src="{{url('icons/sign_out.svg') }}" alt="signout"> <a href="login">Sign out</a></li>
         </ul>
     </nav>
     <main>

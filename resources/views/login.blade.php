@@ -1,4 +1,3 @@
-
 <link href="{{ url('style/dashboard.css') }}" rel="stylesheet">
 <link href="{{ url('style/login.css') }}" rel="stylesheet">
 
@@ -11,21 +10,22 @@
     </div>
     <img class="loginpic" src="{{ url('icons/profilemain.svg') }}" alt="">
 
-   
-        <input class="loginmain" type="text" placeholder="Email">
-        <input class="loginmain" type="text" placeholder="Password">
-        
-        <button class="loginbutton" type="button">Login</button>
-        
-        
+
+    <form action="{{ url('login') }}" method="post" class="login">
+        @csrf
+        @if (count($errors))
+            @foreach ($errors->all() as $error)
+                <div style="color: black;"> {{ $error }}</div>
+            @endforeach
+        @endif
+        <input class="text email" type="email" name="email" placeholder="Email" value="{{ old('email') }}"
+            required>
+
+        <input class="text email" type="password" name="password" placeholder="Password" value="{{ old('password') }}"
+            required>
+        <button class="signup-main">Login</button>
+        <p>Don't have an Account? <a href="signup"> Sign up now!</a></p>
+    </form>
+
+
 </div>
-
-
-
-
-
-
-
-
-
-

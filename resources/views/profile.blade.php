@@ -12,11 +12,10 @@
     <img class="profilepic" src="{{ url('icons/profilemain.svg') }}" alt="">
 
    
-        <input class="profilemain" type="text">
-        <input class="profilemain" type="text">
-        <input class="profilemain" type="text">
-        <input class="profilemain" type="text">
-        <input class="profilebutton" type="button">
+        <input class="profilemain" type="text" placeholder="{{ $user->firstname}}">
+        <input class="profilemain" type="text"placeholder="{{ $user->lastname}}">
+        <input class="profilemain" type="text" placeholder="{{ $user->email}}">
+        <input class="profilebutton" type="button" value="Submit">
         
         
 </div>

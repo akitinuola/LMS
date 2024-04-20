@@ -16,54 +16,18 @@
                 <th>Course Title</th>
             </thead>
             <tbody>
-                <tr>
-                    <td>
-                        <img class="profilepic" src="{{ url('icons/profilemain.svg') }}" alt="">
-                    </td>
-                    <td>Mercy Deis</td>
-                    <td>mercdeis@yahoo.com</td>
-                    <td>Introduction to Computing</td>
-                </tr>
-                <tr>
-                    <td>
-                        <img class="profilepic" src="{{ url('icons/profilemain.svg') }}" alt="">
-                    </td>
-                    <td>Tom Bradley</td>
-                    <td>tombrad@yahoo.com</td>
-                    <td> Digital Innovation</td>
-                </tr>
-                <tr>
-                    <td>
-                        <img class="profilepic" src="{{ url('icons/profilemain.svg') }}" alt="">
-                    </td>
-                    <td>Lara Baker</td>
-                    <td>Lbaker@gmail.com</td>
-                    <td> Data Structures</td>
-                </tr>
-                <tr>
-                    <td>
-                        <img class="profilepic" src="{{ url('icons/profilemain.svg') }}" alt="">
-                    </td>
-                    <td>Derek Fraser</td>
-                    <td>fraserderek@yahoo.com</td>
-                    <td>Programming 101</td>
-                </tr>
-                <tr>
-                    <td>
-                        <img class="profilepic" src="{{ url('icons/profilemain.svg') }}" alt="">
-                    </td>
-                    <td>Leah Walden</td>
-                    <td>waldenleah@yahoo.com</td>
-                    <td>Dissertation</td>
-                </tr>
-                <tr>
-                    <td>
-                        <img class="profilepic" src="{{ url('icons/profilemain.svg') }}" alt="">
-                    </td>
-                    <td>Bradley Herr</td>
-                    <td>herrb@yahoo.com</td>
-                    <td> Research Methods</td>
-                </tr>
+
+                @foreach ($lecturers as $lecturer)
+                    <tr>
+                        <td>
+                            <img class="profilepic" src="{{ url('icons/profilemain.svg') }}" alt="">
+                        </td>
+                        <td>{{ $lecturer->name }}</td>
+                        <td>{{ $lecturer->email }}</td>
+                        <td>{{ $lecturer->coursetitle }}</td>
+                    </tr>
+                @endforeach
+
             </tbody>
         </table>
     </div>

@@ -10,27 +10,17 @@
     </div>
     <p class="heading">Recent Courses</p>
     <div class="courses">
-        <div class="course-item">
-            <div class="rectangle"></div>
-            <div class="details">
-                <p>Data Structures</p>
-                <p>Data102</p>
+
+        @foreach ($courses as $course)
+            <div class="course-item">
+                <div class="rectangle"></div>
+                <div class="details">
+                    <p><a href="courseinfo"> {{ $course->name }}</a></p>
+                    <p>{{ $course->number }}</p>
+                </div>
             </div>
-        </div>
-        <div class="course-item">
-            <div class="rectangle1"></div>
-            <div class="details">
-                <p>Digital Innovation</p>
-                <p>DI103</p>
-            </div>
-        </div>
-        <div class="course-item">
-            <div class="rectangle2"></div>
-            <div class="details">
-                <p>Programming 101</p>
-                <p>Pro231</p>
-            </div>
-        </div>
+        @endforeach
+    </div>
 
     </div>
 
@@ -39,12 +29,15 @@
         <p class="heading">Recent Announcements</p>
 
 
+        @foreach ($announcements as $announcement)
         <div class="announcements">
-            cghhcjcdhcdjhcdhcjkdjhkcjdcjhkd
+            {{ $announcement->name }}
+            <br>
+            {{ $announcement->descripton }}
+            <br>
+            {{ $announcement->date }}
         </div>
-        <div class="announcements">
-            cghhcjcdhcdjhcdhcjkdjhkcjdcjhkd
-        </div>
+    @endforeach
 
 
 

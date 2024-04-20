@@ -7,21 +7,15 @@
         <h1>Announcements</h1>
         <img class="settingspic" src="{{ url('icons/settings_icon.svg') }}" alt="">
     </div>
-    <div class="announcements">
-        cghhcjcdhcdjhcdhcjkdjhkcjdcjhkd
-    </div>
-    <div class="announcements">
-        cghhcjcdhcdjhcdhcjkdjhkcjdcjhkd
-    </div>
-    <div class="announcements">
-        cghhcjcdhcdjhcdhcjkdjhkcjdcjhkd
-    </div>
-    <div class="announcements">
-        cghhcjcdhcdjhcdhcjkdjhkcjdcjhkd
-    </div>
-    <div class="announcements">
-        cghhcjcdhcdjhcdhcjkdjhkcjdcjhkd
-    </div>
+    @foreach ($announcements as $announcement)
+        <div class="announcements">
+            {{ $announcement->name }}
+            <br>
+            {{ $announcement->descripton }}
+            <br>
+            {{ $announcement->date }}
+        </div>
+    @endforeach
 
 
 
