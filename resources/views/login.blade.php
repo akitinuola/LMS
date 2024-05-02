@@ -7,6 +7,14 @@
     <div class="dashboard-header">
         <h1>Login</h1>
         <img class="settingspic" src="{{ url('icons/settings_icon.svg') }}" alt="">
+        <form action="{{ url('changemode') }}" method="post" >
+            @csrf
+            <select name="mode" id="mode">
+                <option value="light" {{ (session('mode') === 'light')? 'selected' : '' }}>Light Mode</option>
+                <option value="dark" {{ (session('mode') === 'dark') ? 'selected' : '' }}>Dark Mode</option>
+            </select>
+            <button type="submit">Save</button>
+        </form>
     </div>
     <img class="loginpic" src="{{ url('icons/profilemain.svg') }}" alt="">
 

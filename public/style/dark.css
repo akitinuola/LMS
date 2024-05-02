@@ -1,0 +1,13 @@
+/* dark.css */
+body {
+    background-color: #023047;
+    color: #ffffff;
+}
+
+nav {
+    background: #022435 !important;
+}
+
+.course-item .rectangle {
+    background: #063b55;
+}

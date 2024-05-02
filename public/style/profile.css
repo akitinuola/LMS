@@ -52,3 +52,15 @@
     text-align: left;
     
 }
+
+.profile-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    text-align: center;
+}
+

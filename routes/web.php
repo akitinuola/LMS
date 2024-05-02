@@ -6,8 +6,10 @@ use App\Http\Controllers\Login;
 use App\Http\Controllers\Lecturers;
 use App\Http\Controllers\Courses;
 use App\Http\Controllers\Announcements;
+use App\Http\Controllers\Customization;
 use App\Http\Controllers\Home;
 use App\Http\Controllers\Profile;
+use App\Http\Controllers\Grades;
 
 Route::get('/', function () {
     return view('login');
@@ -17,12 +19,11 @@ Route::get('/announcements', [Announcements::class,"loadAnnouncementsPage"]);
 
 
 Route::get('/profile', [Profile::class,"loadProfilePage"]);
+Route::post('/profile', [Profile::class,"updateprofile"]);
 
 Route::get('/lecturers', [Lecturers::class,"loadLecturersPage"]);
 
-Route::get('/grades', function () {
-    return view('grades');
-});
+Route::get('/grades', [Grades::class,"loadGradepage"]);
 
 Route::get('/courses', function () {
     return view('courses');
@@ -44,3 +45,5 @@ Route::get('/login', [Login::class,"returnLoginpage"]);
  Route::post('/login', [Login::class,"login"]);
 
  Route::get('/courses', [Courses::class,"loadCoursesPage"]);
+
+ Route::post('/changemode', [Customization::class,"update"]);

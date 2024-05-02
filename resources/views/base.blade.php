@@ -10,6 +10,11 @@
     <meta name="author" content="">
 
     <title>LMS</title>
+    @if(session('mode') === 'light')
+    <link href="{{ url('style/light.css') }}" rel="stylesheet">
+    @else
+    <link href="{{ url('style/dark.css') }}" rel="stylesheet">
+    @endif
 
     <!-- Custom fonts for this template-->
     <link

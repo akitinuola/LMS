@@ -8,7 +8,16 @@
         <div class="dashboard-header">
             <h1>Course Info</h1>
             <img class="settingspic" src="{{ url('icons/settings_icon.svg') }}" alt="">
+            <form action="{{ url('changemode') }}" method="post" >
+                @csrf
+                <select name="mode" id="mode">
+                    <option value="light" {{ (session('mode') === 'light')? 'selected' : '' }}>Light Mode</option>
+                    <option value="dark" {{ (session('mode') === 'dark') ? 'selected' : '' }}>Dark Mode</option>
+                </select>
+                <button type="submit">Save</button>
+            </form>
         </div>
+
         <p class="heading">Programming 101</p>
         <p>Course Details</p>
         <div class="course-body">
