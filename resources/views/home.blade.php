@@ -5,7 +5,7 @@
     <link href="{{ url('style/home.css') }}" rel="stylesheet">
 
     <div class="dashboard-header">
-        <h1>Courses</h1>
+        <h1>Home</h1>
         <form action="{{ url('changemode') }}" method="post" >
             @csrf
             <select name="mode" id="mode">
@@ -15,7 +15,10 @@
             <button type="submit">Save</button>
         </form>
     </div>
-    <p class="heading">Recent Courses</p>
+    <div class="details">
+        <p class="heading">Recent Courses</p>
+    </div>
+    
     <div class="courses">
 
         @foreach ($courses as $course)
@@ -38,11 +41,9 @@
 
         @foreach ($announcements as $announcement)
         <div class="announcements">
-            {{ $announcement->name }}
-            <br>
-            {{ $announcement->descripton }}
-            <br>
-            {{ $announcement->date }}
+            <p class="head">{{ $announcement->name }}</p>
+           <p class="middle">{{ $announcement->descripton }}</p> 
+           <p class="end"> {{ $announcement->date }}</p>
         </div>
     @endforeach
 

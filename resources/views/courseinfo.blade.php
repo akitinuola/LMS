@@ -7,7 +7,6 @@
 
         <div class="dashboard-header">
             <h1>Course Info</h1>
-            <img class="settingspic" src="{{ url('icons/settings_icon.svg') }}" alt="">
             <form action="{{ url('changemode') }}" method="post" >
                 @csrf
                 <select name="mode" id="mode">
@@ -19,7 +18,7 @@
         </div>
 
         <p class="heading">Programming 101</p>
-        <p>Course Details</p>
+        <p class="course-details">Course Details</p>
         <div class="course-body">
             Lorem ipsum dolor sit amet. Qui reprehenderit sapiente ea galisum magnam ut voluptatem perspiciatis qui facere
             incidunt qui autem error ut enim facilis hic dolores autem. Sed molestiae enim est consequatur autem ad
@@ -32,8 +31,8 @@
             dolore placeat aut incidunt sapiente et quia quos non veniam consequuntur?
         </div>
         <br>
-        <p> Course Leader: Leah walden</p>
-        <p>Timetable: Thursdays 12:00 - 13:30</p>
+        <p class="course-details"> Course Leader: Leah walden</p>
+        <p class="course-details">Timetable: Thursdays 12:00 - 13:30</p>
     </div>
 
 

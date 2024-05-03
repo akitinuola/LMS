@@ -15,7 +15,7 @@
             <button type="submit">Save</button>
         </form>
     </div>
-    <img class="signup-pic" src="{{ url('icons/profilemain.svg') }}" alt="">
+    <img class="signup-pic" src="{{ url('icons/profilemain.svg') }}" alt="profile-pic icon">
 
 
     <form action="{{ url('signup') }}" method="post">

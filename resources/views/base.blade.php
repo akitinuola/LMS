@@ -32,7 +32,7 @@
         <ul class="navigation-list">
             <li><img class="icon" src="{{ url('icons/home.svg') }}" alt="home"><a href="home">Home</a></li>
             <li><img class="icon" src="{{url('icons/courses.svg') }} "alt="courses"><a href="courses">Courses</a></li>
-            <li><img class="icon" src= "{{url('icons/announcement.svg') }}" alt=""><a href="announcements">Announcement</a></li>
+            <li><img class="icon" src= "{{url('icons/announcement.svg') }}" alt="announcement"><a href="announcements">Announcement</a></li>
             <li><img class="icon" src= "{{url('icons/grades.svg') }}" alt="grades"><a href="grades">Grades</a></li>
             <li><img class="icon" src=" {{url('icons/profile.svg') }}" alt="profile"><a href="profile">Profie</a></li>
             <li><img class="icon" src="{{url('icons/lecturers.svg') }}" alt="lecturers"><a href="lecturers">Lecturers</a></li>

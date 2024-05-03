@@ -16,7 +16,7 @@
                 <button type="submit">Save</button>
             </form>
         </div>
-        <img class="profilepic" src="{{ url('icons/profilemain.svg') }}" alt="">
+        <img class="profilepic" src="{{ url('icons/profilemain.svg') }}" alt="profile-pic icon">
 
         <form class="profile-form" action="{{ url('profile') }}" method="post">
             @csrf

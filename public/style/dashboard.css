@@ -70,7 +70,7 @@ img.icon {
 
 @media screen and (max-width: 2560px) {
     li {
-        margin-bottom: 30px !important;
+        /* margin-bottom: 30px !important; */
     }
 }
 

@@ -1,7 +1,8 @@
 /* dark.css */
 body {
     background-color: #023047;
-    color: #ffffff;
+    color: #F1F1F1;
+   
 }
 
 nav {
@@ -9,5 +10,8 @@ nav {
 }
 
 .course-item .rectangle {
-    background: #063b55;
+    background: #063b55 ;
+}
+a{
+    color: #F1F1F1 !important;
 }

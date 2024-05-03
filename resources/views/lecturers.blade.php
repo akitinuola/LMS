@@ -27,7 +27,7 @@
                 @foreach ($lecturers as $lecturer)
                     <tr>
                         <td>
-                            <img class="profilepic" src="{{ url('icons/profilemain.svg') }}" alt="">
+                            <img class="profilepic" src="{{ url('icons/profilemain.svg') }}" alt="profile-picture icon">
                         </td>
                         <td>{{ $lecturer->name }}</td>
                         <td>{{ $lecturer->email }}</td>

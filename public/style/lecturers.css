@@ -8,16 +8,13 @@
 
 }
 .lecturertable {
-    margin: 50px;
-}
-
-
-.thead {
-    padding: 10px;
+    margin: 50px 0;
+    overflow: auto;
 }
 
 table {
     width: 100%;
+    padding-left: 50px;
 }
 th {
     text-align: left;
@@ -36,4 +33,87 @@ td img {
     padding-left: 5px;
     text-align: left;
     
+}
+
+
+@media screen and (max-width: 494px) {
+    table {
+        width: 100%;
+    }
+
+    td img{
+        border-radius: 10px !important;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    table {
+        width: 100%;
+    }
+
+    td img{
+        border-radius: 10px !important;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    table {
+        width: 100%;
+    }
+
+    td img{
+        border-radius: 10px !important;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    table {
+        width: 100%;
+    }
+
+    td img{
+        border-radius: 10px !important;
+    }
+}
+
+
+@media screen and (max-width: 975px) {
+    table {
+        width: 90%;
+    }
+
+    td img{
+        border-radius: 10px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    td img{
+        border-radius: 10px !important;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    table {
+        width: 100%;
+    }
+
+    td img{
+        border-radius: 10px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    table {
+        width: 100%;
+    }
+
+    td img{
+        border-radius: 10px !important;
+    }
 }

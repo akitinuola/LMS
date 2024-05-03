@@ -17,14 +17,12 @@
     </div>
 
     @foreach ($announcements as $announcement)
-        <div class="announcements">
-            {{ $announcement->name }}
-            <br>
-            {{ $announcement->descripton }}
-            <br>
-            {{ $announcement->date }}
-        </div>
-    @endforeach
+    <div class="announcements">
+        <p class="head">{{ $announcement->name }}</p>
+       <p class="middle">{{ $announcement->descripton }}</p> 
+       <p class="end"> {{ $announcement->date }}</p>
+    </div>
+@endforeach
 
 
 

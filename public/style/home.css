@@ -182,22 +182,35 @@
     background: #033b3b80;
 }
 
-.announcements {
+
+.announcements{
     margin-top: 40px;
-    border: solid 1px #000000;
-    border-radius: 100px;
-    padding: 20px;
+    border: solid 1px  black;
+    margin-right: 70px;
+    border-radius: 10px !important;
+    padding: 10px;
     list-style-type: none;
-    margin-bottom: 20px;
 }
 
 .heading {
     font-weight: bold;
-    padding-left: 20px;
     margin-top: 20px;
     font-size: 20px;
 }
 a {
     text-decoration: none;
     color: #000000;
+}
+
+.middle {
+    margin: 10px 0;
+}
+
+.head {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+.end {
+    margin: 0;
 }

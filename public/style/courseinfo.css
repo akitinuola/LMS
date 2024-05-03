@@ -36,3 +36,94 @@ p {
     font-weight: bold;
     padding-left: 60px;
 }
+
+@media screen and (max-width: 494px) {
+    table {
+        width: 100%;
+    }
+
+    td img{
+        border-radius: 10px !important;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .course-body{
+        width: 80%;
+        font-size: 30px;
+    }
+
+    .course-details {
+        font-size: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 1440px) {
+    .course-body{
+        width: 90%;
+        font-size: 20px;
+        
+    }
+    .course-details {
+        font-size: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 1140px) {
+    .course-body{
+        width: 90%;
+        font-size: 20px;
+        
+    }
+    .course-details {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 974px) {
+    .course-body{
+        width: 90%;
+        
+        
+    }
+    .course-details {
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .course-body{
+        width: 90%;
+        
+        
+    }
+    .course-details {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .courses {
+        width: 100%;
+    }
+
+    .course-item{
+        width: 70%;
+}
+}
+
+@media screen and (max-width: 425px) {
+    .courses {
+        width: 100%;
+    }
+
+    .course-item{
+        width: 70%;
+}
+}
