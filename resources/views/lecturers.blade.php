@@ -1,8 +1,10 @@
 @extends('base')
+
+
+@section('body')
 <link href="{{ url('style/dashboard.css') }}" rel="stylesheet">
 <link href="{{ url('style/lecturers.css') }}" rel="stylesheet">
 
-@section('body')
     <div class="dashboard-header">
         <h1>Lecturers</h1>
         <form action="{{ url('changemode') }}" method="post" >
@@ -17,10 +19,12 @@
     <div class="lecturertable">
         <table>
             <thead class="thead">
+                <tr>
                 <th></th>
                 <th>Name</th>
                 <th>Email</th>
                 <th>Course Title</th>
+                </tr>
             </thead>
             <tbody>
 

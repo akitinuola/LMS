@@ -182,6 +182,11 @@
     background: #033b3b80;
 }
 
+.rectangle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .announcements{
     margin-top: 40px;

@@ -20,7 +20,9 @@
 
         @foreach ($courses as $course)
             <div class="course-item">
-                <div class="rectangle"></div>
+                <div class="rectangle">
+                    <img class="profilepic" src="{{ url('img/computing'.$course->id.'.jpg') }}" alt="Computingicon">
+                </div>
                 <div class="details">
                     <p><a href="courseinfo"> {{ $course->name }}</a></p>
                     <p>{{ $course->number }}</p>
